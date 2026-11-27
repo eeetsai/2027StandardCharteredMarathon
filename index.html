@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>2027 渣打半馬｜港灣跑步手帳</title>
+<style>
+:root{--ink:#203c50;--paper:#f5f7f3;--sage:#d9e4d3;--green:#416856;--lilac:#e3dfee;--pink:#ce6b79;--line:#d6dfda;--muted:#5c706d;--white:#fff;--display:"Yu Mincho","Noto Serif TC","PMingLiU",serif;--body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;--number:"Courier New",monospace}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.65}button,input,select,textarea{font:inherit;color:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--pink);outline-offset:3px}button{border:1px solid var(--line);background:var(--white);border-radius:8px;padding:9px 14px}button:hover{border-color:var(--green);background:#edf2eb}button.primary{background:var(--ink);color:var(--white);border-color:var(--ink)}h1,h2,h3,p{margin-top:0}h2{font-family:var(--display);font-size:29px;letter-spacing:.05em;margin-bottom:8px}h3{font-size:17px}small,.muted{color:var(--muted)}.wrap{max-width:1400px;margin:auto;padding:0 36px}.masthead{display:flex;justify-content:space-between;align-items:center;padding-top:19px;padding-bottom:19px;border-bottom:1px solid var(--line);font-size:12px;letter-spacing:.14em}.brand{font-weight:700}.brand i{display:inline-block;width:9px;height:9px;background:var(--pink);border-radius:50%;margin-right:9px}.hero{display:grid;grid-template-columns:1.1fr 1fr;min-height:370px;align-items:center;padding-top:32px;padding-bottom:32px;gap:35px}.eyebrow{font-size:12px;color:var(--green);letter-spacing:.22em;margin-bottom:14px}.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(32px,4vw,55px);line-height:1.35;letter-spacing:.06em;margin-bottom:16px}.hero h1 em{font-style:normal;color:var(--green)}.hero p{max-width:490px;color:var(--muted);margin-bottom:20px}.countdown{display:inline-flex;gap:16px;align-items:center;border-left:3px solid var(--pink);padding:8px 0 8px 18px}.countdown strong{font:700 46px/1 var(--number)}.countdown span{font-size:13px}.illustration{width:100%;max-height:315px}.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;border-top:1px solid var(--line);padding:16px 0}.save-status{font-size:12px;flex:1;min-width:200px}.tabs{display:flex;gap:5px;overflow:auto;padding:5px 0 0;border-bottom:1px solid var(--line);scrollbar-width:thin}.tabs button{white-space:nowrap;border:0;border-radius:8px 8px 0 0;background:transparent;padding:16px 21px;color:var(--muted)}.tabs button[aria-selected=true]{background:var(--ink);color:var(--white)}main{padding:28px 0 45px}.panel[hidden]{display:none}.section-head{display:flex;justify-content:space-between;gap:18px;align-items:start;margin-bottom:20px}.section-head p{margin-bottom:0;color:var(--muted);font-size:13px}.chip{padding:5px 12px;border-radius:30px;background:var(--sage);font-size:12px;white-space:nowrap}.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:13px;margin-bottom:25px}.metric{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:18px 19px}.metric small{display:block;font-size:12px}.metric strong{display:block;font:700 29px/1.5 var(--number);margin-top:4px}.metric .unit{font-size:12px;color:var(--muted)}.filters{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:16px 0}.filters label{font-size:13px}.filters select{margin-left:8px}.table-wrap{overflow:auto;background:var(--white);border:1px solid var(--line);border-radius:12px}.data-table{border-collapse:collapse;width:100%;font-size:13px}.data-table th{background:#eaf0e6;text-align:left;font-weight:600;padding:13px 12px;white-space:nowrap;position:sticky;top:0;z-index:1}.data-table td{border-top:1px solid #e9eeea;padding:12px;vertical-align:top;min-width:90px}.data-table tr.completed td{background:#f1f6ee}.data-table td:first-child{min-width:48px}.data-table input[type=checkbox],.check-card input[type=checkbox]{accent-color:var(--green);width:21px;height:21px;cursor:pointer}.data-table input[type=number]{width:82px}.data-table input[type=text]{width:105px}.data-table textarea{width:170px;min-height:65px;resize:vertical}input:not([type=checkbox]),select,textarea{background:#fcfdfb;border:1px solid #b8c9bf;border-radius:6px;padding:7px 8px;max-width:100%}.date{white-space:nowrap;font-family:var(--number);font-size:14px}.tag{font-size:11px;padding:3px 7px;border-radius:4px;background:var(--lilac);display:inline-block;white-space:nowrap}.tag.long{background:var(--sage)}.tag.race{background:#f1dee2}.numeric{font-family:var(--number);white-space:nowrap}.note{font-size:12px;color:var(--muted);margin:15px 0}.callout{border-left:3px solid var(--pink);background:#f5e9ed;border-radius:0 8px 8px 0;padding:15px 18px;margin:20px 0;font-size:13px}.chart{padding:22px;background:var(--white);border:1px solid var(--line);border-radius:12px;margin:20px 0}.chart-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:18px;align-items:end}.bar-pair{height:155px;display:flex;align-items:end;gap:5px;justify-content:center;border-bottom:1px solid var(--line)}.bar{width:30%;background:var(--sage);min-height:1px;border-radius:4px 4px 0 0}.bar.actual{background:var(--green)}.bar-label{text-align:center;font-size:12px;margin-top:9px}.legend{font-size:12px;margin-bottom:20px;color:var(--muted)}.legend i{display:inline-block;width:9px;height:9px;background:var(--sage);margin:0 5px 0 15px}.legend i:first-child{margin-left:0}.legend i:last-child{background:var(--green)}.ready-hero{display:grid;grid-template-columns:240px 1fr;gap:30px;align-items:center;background:var(--sage);border-radius:12px;padding:30px;margin-bottom:24px}.score-ring{position:relative;width:190px;height:190px;margin:auto}.score-ring svg{width:100%;height:100%;transform:rotate(-90deg)}.score-ring .score-text{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column}.score-text strong{font:700 48px var(--number)}.score-text small{font-size:12px}.ready-hero h3{font-family:var(--display);font-size:23px;line-height:1.6}.ready-hero p{font-size:13px;margin:0}.check-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}.check-card{display:flex;align-items:start;gap:14px;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:18px}.check-card.done{background:#edf3e8}.check-card input{flex-shrink:0;margin-top:3px}.check-card label{cursor:pointer;display:block;font-weight:600}.check-card small{display:block;margin:5px 0 9px}.check-card textarea{width:100%;min-height:43px;resize:vertical;font-size:12px}.guide-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.guide-card{padding:22px;border:1px solid var(--line);border-radius:10px;background:var(--white)}.guide-card p{font-size:14px;margin-bottom:0}.guide-card h3{font-family:var(--display);font-size:20px}.technical{margin-top:22px;border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--white);font-size:13px}.technical summary{cursor:pointer;font-weight:600}.technical code{font:12px var(--number);overflow-wrap:anywhere}.error{color:#8e273a;background:#fae5e9;padding:12px;border-radius:8px;margin:10px 0}.empty{padding:28px;text-align:center;color:var(--muted)}footer{border-top:1px solid var(--line);padding:20px 0 30px;font-size:12px;color:var(--muted)}.footer-row{display:flex;justify-content:space-between;gap:20px}.progress{height:5px;border-radius:5px;background:var(--sage);overflow:hidden;margin-top:9px}.progress span{display:block;height:100%;background:var(--green)}dialog{border:1px solid var(--line);border-radius:12px;padding:28px;max-width:430px;color:var(--ink)}dialog::backdrop{background:#203c5070}.dialog-actions{display:flex;justify-content:end;gap:10px;margin-top:20px}
+@media(max-width:900px){.wrap{padding:0 22px}.hero{gap:10px;min-height:320px}.metrics{grid-template-columns:repeat(3,1fr)}.hero h1{font-size:36px}.tabs button{padding:14px}.ready-hero{grid-template-columns:190px 1fr;padding:22px}.chart-grid{gap:10px}}
+@media(max-width:600px){.wrap{padding:0 16px}.masthead{font-size:10px;letter-spacing:.04em}.hero{grid-template-columns:1fr;gap:0;padding-top:28px;padding-bottom:18px}.hero h1{font-size:34px}.hero p{margin-bottom:14px}.illustration{height:180px;margin-top:10px}.countdown strong{font-size:36px}.toolbar button{font-size:12px;padding:8px 10px}.save-status{flex-basis:100%}.tabs button{font-size:13px;padding:13px 12px}.metrics{grid-template-columns:1fr 1fr;gap:9px}.metric{padding:14px}.metric strong{font-size:25px}.section-head{gap:9px}h2{font-size:24px}.section-head .chip{display:none}.ready-hero{grid-template-columns:1fr;text-align:center;padding:22px}.score-ring{width:150px;height:150px}.check-grid,.guide-grid{grid-template-columns:1fr}.chart{padding:16px}.chart-grid{gap:5px}.bar-pair{height:115px}.bar-label{font-size:10px}.footer-row{flex-direction:column;gap:6px}.data-table td{padding:10px}.countdown{gap:12px}}
+@media(prefers-reduced-motion:no-preference){.runner{animation:breathe 3s ease-in-out infinite;transform-origin:75% 75%}@keyframes breathe{50%{transform:translateY(-3px)}}}
+@media print{.toolbar,.filters,.tabs,.illustration{display:none}.panel[hidden]{display:block}.table-wrap{overflow:visible}.wrap{padding:0}.hero{min-height:0}.panel{break-before:page}.metrics{grid-template-columns:repeat(5,1fr)}}
+.wrap,.hero>div,.section-head>div,.metric,.check-card>div{min-width:0}
+.metric strong,.guide-card p,.callout{overflow-wrap:anywhere}
+.hosting-note{margin:0 0 16px;padding:12px 16px;border:1px solid var(--line);border-radius:8px;background:var(--white);font-size:13px}
+.hosting-note p{margin:0}
+.hosting-note summary{cursor:pointer;font-weight:600}
+.hosting-note p+ p{margin-top:8px}
+@media screen and (max-width:760px){
+ body{font-size:15px}
+ button,input:not([type=checkbox]),select,textarea{min-height:44px}
+ input:not([type=checkbox]),select,textarea{font-size:16px}
+ .toolbar{display:grid;grid-template-columns:1fr 1fr}
+ .save-status{grid-column:1/-1;min-width:0}
+ .toolbar button{font-size:14px;padding:10px 8px}
+ .tabs{position:sticky;top:0;z-index:3;background:var(--paper);padding-top:6px}
+ .tabs button{flex-shrink:0;min-height:48px}
+ .table-wrap{overflow:visible;background:transparent;border:0;border-radius:0}
+ .data-table,.data-table tbody{display:block;width:100%}
+ .data-table thead{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .data-table tr{display:block;margin-bottom:14px;border:1px solid var(--line);border-radius:12px;background:var(--white);overflow:hidden}
+ .data-table td,.data-table td:first-child{display:grid;grid-template-columns:minmax(90px,32%) minmax(0,1fr);gap:10px;align-items:start;min-width:0;padding:11px 14px;overflow-wrap:anywhere;white-space:normal}
+ .data-table td::before{content:attr(data-label);font-family:var(--body);font-size:13px;font-weight:600;color:var(--muted)}
+ .data-table td:first-child{border-top:0;background:#eaf0e6}
+ .data-table td.date{display:block}
+ .data-table td.date::before{display:block;margin-bottom:4px}
+ .data-table td.date br{display:none}
+ .data-table td.date small{margin-left:8px}
+ .data-table input[type=number],.data-table input[type=text],.data-table textarea{width:100%;min-width:0}
+ .data-table input[type=checkbox],.check-card input[type=checkbox]{width:44px;height:44px;margin:0}
+ .check-card{gap:10px;padding:14px}
+ .check-card>div{flex:1}
+ .data-table td.empty{display:block}
+ .data-table td.empty::before{display:none}
+ .filters{align-items:stretch}
+ .filters label{flex:1;min-width:120px}
+ .filters select{display:block;margin:5px 0 0;width:100%}
+ .technical .data-table td{grid-template-columns:1fr}
+ .technical code{font-size:13px;white-space:normal}
+ dialog{width:calc(100% - 32px);max-height:85dvh;overflow:auto;padding:20px}
+}
+@media screen and (max-width:360px){
+ .wrap{padding:0 12px}
+ .hero h1{font-size:30px}
+ .metric{padding:12px 10px}
+ .metric strong{font-size:22px}
+ .masthead{flex-wrap:wrap;gap:6px}
+ .data-table td,.data-table td:first-child{padding:10px;gap:8px}
+}
+.masthead{position:sticky;top:0;z-index:4;background:var(--paper);gap:12px;letter-spacing:.06em}
+.masthead-actions{display:flex;align-items:center;gap:18px}
+.current-sheet{font-size:13px;color:var(--green);letter-spacing:0}
+.menu-toggle{display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;padding:0;font-size:25px;border-color:var(--ink)}
+.save-line{display:flex;gap:10px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
+.save-line::before{content:"";width:6px;height:6px;background:var(--green);border-radius:50%;flex-shrink:0}
+.save-status{min-width:0}
+.menu-dialog{position:fixed;inset:0 0 0 auto;margin:0;width:min(390px,100%);height:100dvh;max-width:none;max-height:none;border-radius:0;border:0;border-left:1px solid var(--line);padding:24px;overflow:auto;overscroll-behavior:contain}
+body:has(.menu-dialog[open]){overflow:hidden}
+.menu-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px}
+.menu-heading h2{font-size:24px;margin:0}
+.menu-heading button{min-width:44px;min-height:44px}
+.menu-section{padding:20px 0;border-top:1px solid var(--line)}
+.menu-section h3{font-size:12px;color:var(--muted);letter-spacing:.12em;margin:0 0 12px}
+.menu-dialog .tabs{display:grid;gap:6px;overflow:visible;border:0;padding:0;position:static}
+.menu-dialog .tabs button{border-radius:8px;text-align:left;padding:12px 14px;min-height:46px;white-space:normal}
+.menu-dialog .toolbar{display:grid;grid-template-columns:1fr;border:0;padding:0;gap:8px}
+.menu-dialog .toolbar button{text-align:left;min-height:46px;font-size:14px;padding:11px 14px}
+.menu-dialog .filters{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:0}
+.menu-dialog .filters label{min-width:0}
+.menu-dialog .filters select{width:100%;display:block;margin:6px 0 0;min-height:44px;font-size:16px}
+.menu-dialog .hosting-note{margin-top:20px}
+.menu-dialog .hosting-note p{margin-top:12px}
+.course-cards{display:grid;gap:16px}
+.course-card{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.course-card.completed{border-color:#9bb4a1;background:#f3f7f0}
+.course-heading{display:flex;justify-content:space-between;align-items:start;gap:10px}
+.course-heading h3{font:700 21px var(--number);margin:0 0 4px}
+.course-heading small{font-size:12px}
+.course-complete{display:flex;align-items:center;gap:6px;min-height:44px;font-size:12px;cursor:pointer;flex-shrink:0}
+.course-complete input{width:24px;height:24px;accent-color:var(--green);margin:0}
+.course-topic{display:flex;gap:8px;align-items:center;margin:12px 0;font-size:13px}
+.course-records,.course-details-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.course-card label:not(.course-complete){display:block;color:var(--muted);font-size:12px}
+.course-card input:not([type=checkbox]),.course-card textarea{width:100%;margin-top:5px;min-height:44px;font-size:16px}
+.course-details{margin-top:14px;border-top:1px solid var(--line)}
+.course-details summary{cursor:pointer;padding:12px 0 0;color:var(--green);font-size:13px;min-height:44px}
+.course-details-grid{margin:12px 0}
+.course-details-grid .wide{grid-column:1/-1}
+.course-details p{font-size:13px;margin:8px 0;overflow-wrap:anywhere}
+.course-details textarea{min-height:76px;resize:vertical}
+@media screen and (max-width:760px){
+ .masthead{padding:10px 0;flex-wrap:nowrap}
+ .masthead-actions{gap:10px}
+ .current-sheet{font-size:12px}
+ .hero{position:relative;display:block;min-height:0;padding:22px 0}
+ .hero h1{font-size:28px;line-height:1.4;margin-bottom:12px}
+ .hero p{font-size:13px;margin-bottom:20px;max-width:500px}
+ .eyebrow{font-size:10px;letter-spacing:.1em;margin-bottom:10px}
+ .illustration{position:absolute;right:0;bottom:12px;width:112px;height:100px;margin:0}
+ .countdown{max-width:calc(100% - 112px);gap:8px;padding:8px 0 8px 12px}
+ .countdown strong{font-size:32px}
+ .countdown span{font-size:10px}
+ main{padding-top:20px}
+ .section-head{margin-bottom:16px}
+ .metrics{grid-template-columns:1fr 1fr;gap:8px;margin-bottom:18px}
+ .metric{padding:11px 13px;border-radius:10px}
+ .metric strong{font-size:22px}
+ .metric:first-child{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--sage)}
+ .metric:first-child strong{margin:0}
+ .metric small,.metric .unit{font-size:11px}
+ .menu-dialog{padding:20px}
+ .save-line{padding:10px 0}
+}
+@media print{
+ .masthead,.save-line,.menu-dialog{display:none}
+ .course-details:not([open])> :not(summary){display:block}
+ .course-card{break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="masthead"><span class="brand"><i></i>港灣跑步手帳</span><div class="masthead-actions"><span class="current-sheet" id="current-sheet">訓練課表</span><button class="menu-toggle" id="open-menu" type="button" aria-label="開啟選單" aria-haspopup="dialog" aria-controls="menu-dialog" aria-expanded="false">☰</button></div></header>
+<section class="hero" aria-label="渣打半馬倒數">
+<div><div class="eyebrow">2027 渣打台北半馬 · 訓練紀錄</div><h1>從神戶的風，<br>跑向<em>台北的晨光。</em></h1><p>每週二、四、六，一次一次累積。記下實際跑過的距離，也留意身體的聲音；比賽週改為二、四、日。</p><div class="countdown"><strong id="count-number">—</strong><span id="count-label">距離比賽<br>2027 / 01 / 10 · 台灣時間</span></div></div>
+<svg class="illustration" viewBox="0 0 620 360" role="img" aria-labelledby="art-title art-desc">
+<title id="art-title">神戶港灣晨跑</title><desc id="art-desc">原創插圖：淡紫山景、神戶港塔、港灣波紋與向前奔跑的跑者。</desc>
+<defs><pattern id="water" width="75" height="18" patternUnits="userSpaceOnUse"><path d="M0 9q18-6 36 0t36 0" fill="none" stroke="#94ada5" stroke-width="1"/></pattern></defs>
+<circle cx="458" cy="99" r="52" fill="#e8c6ce"/><path d="M17 179L113 88 174 143 261 66 360 154 423 114 590 191Z" fill="#e3dfee"/><path d="M10 195L91 154 190 186 296 141 401 195 541 169 610 211V294H10Z" fill="#d9e4d3"/>
+<path d="M35 205H590V285H35Z" fill="#e9f0ed"/><path d="M35 212H590V278H35Z" fill="url(#water)"/>
+<g stroke="#ce6b79" fill="none" stroke-width="3"><path d="M161 204Q191 149 172 54H194Q175 149 207 204ZM164 184H204M175 157H195M177 128H194M175 98H195M174 72H195"/><path d="M183 54V35"/><path d="M158 204H209"/></g>
+<g fill="#94ada5"><path d="M68 205V166H91V205M100 205V147H121V205M129 205V177H144V205M218 205V159H242V205M250 205V172H281V205"/><path d="M294 205Q346 132 399 205Z" fill="#f5f7f3" stroke="#94ada5" stroke-width="2"/></g>
+<path d="M3 302Q163 248 324 284T617 287" fill="none" stroke="#203c50" stroke-width="2"/><path d="M3 320Q163 266 324 302T617 305" fill="none" stroke="#94ada5" stroke-width="1"/><path d="M34 338H150M500 337H578" stroke="#94ada5" stroke-width="2"/>
+<g class="runner" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="433" cy="304" rx="59" ry="6" fill="#b4c7bd" opacity=".5"/><path d="M432 162L410 209 447 229 474 273" fill="none" stroke="#203c50" stroke-width="17"/><path d="M433 221L401 262 363 274" fill="none" stroke="#203c50" stroke-width="16"/><path d="M428 155L462 180 486 161" fill="none" stroke="#dba48c" stroke-width="11"/><path d="M426 159L397 176 376 165" fill="none" stroke="#dba48c" stroke-width="11"/><path d="M423 148L443 154 433 202 408 193Z" fill="#ce6b79"/><path d="M428 148L438 134" stroke="#dba48c" stroke-width="11"/><circle cx="443" cy="121" r="17" fill="#dba48c"/><path d="M426 124Q419 96 448 102Q467 106 459 123L449 115Z" fill="#203c50"/><path d="M426 108Q410 100 400 111" fill="none" stroke="#203c50" stroke-width="8"/><path d="M474 273L489 282 506 281M365 273L353 288 369 292" fill="none" stroke="#416856" stroke-width="10"/><path d="M486 292H514M347 300H373" stroke="#203c50" stroke-width="2"/></g>
+<g stroke="#416856" stroke-width="2" fill="none"><path d="M547 284V225M547 247L524 229M547 259L570 238"/><path d="M536 218q-15 12-3 20M554 223q20 6 12 20"/></g><text x="40" y="41" font-family="serif" font-size="13" fill="#416856" letter-spacing="5">一歩ずつ · 一步一步</text>
+</svg>
+</section>
+<div class="save-line"><span class="save-status" id="save-status" role="status" aria-live="polite">正在讀取紀錄…</span></div>
+<div id="message" role="alert" hidden></div>
+<main id="panels"></main>
+<footer><div class="footer-row"><span>原課表轉換 · 不額外改寫訓練安排 · 手機與桌機適用</span><span>本機儲存，尚無雲端同步；跨裝置請匯出／匯入紀錄備份。</span></div></footer>
+</div>
+<dialog class="menu-dialog" id="menu-dialog" aria-labelledby="menu-title">
+<div class="menu-heading"><h2 id="menu-title">手帳選單</h2><button id="close-menu" type="button" aria-label="關閉選單">✕</button></div>
+<div class="menu-section"><h3>切換工作表</h3><nav class="tabs" role="tablist" aria-label="Excel 工作表" aria-orientation="vertical"></nav></div>
+<div class="menu-section" id="menu-filters"><h3>課表篩選</h3><div class="filters"><label>週次<select id="week-filter"><option value="">全部週次</option><option>W1</option><option>W2</option><option>W3</option><option>W4</option><option>W5</option><option>W6</option><option>比賽週</option></select></label><label>類型<select id="type-filter"><option value="">全部類型</option><option>輕鬆跑</option><option>品質課</option><option>長距離</option><option>喚醒跑</option><option>比賽</option></select></label></div><p class="note">只篩選畫面，統計與匯出仍包含全部課程。</p><button id="apply-filters" type="button">查看課程</button></div>
+<div class="menu-section"><h3>紀錄與備份</h3><div class="toolbar"><button id="export-xlsx">匯出訓練紀錄（Excel .xlsx）</button><button id="export-json">匯出紀錄備份（JSON）</button><button id="import-json">匯入紀錄備份（JSON）</button><button id="export-html" class="primary">下載含紀錄的 HTML</button><button id="reset">重設紀錄</button><input id="import-file" type="file" accept=".json,application/json" hidden></div><p class="note">Excel 供檢視與整理；跨裝置接續編輯請用 JSON。匯入會取代現有紀錄，請先備份。</p></div>
+<details class="hosting-note"><summary>手機與電腦怎麼共用紀錄？</summary><p>GitHub Pages 只提供網頁，不會同步你填入的資料。目前紀錄仍只儲存在此裝置、此瀏覽器。換裝置時，請先匯出 JSON，再在另一裝置匯入；匯入會取代該裝置現有紀錄。</p><p>自動同步需另接有登入與存取權限的雲端資料庫，目前尚未設定。請勿將含紀錄的 HTML、JSON 或 Excel 上傳到公開網站。</p></details>
+</dialog>
+<dialog id="reset-dialog"><h3>重設全部紀錄？</h3><p>將清除勾選、輸入內容及課表距離調整，恢復原始課表。建議先匯出備份。</p><div class="dialog-actions"><button id="cancel-reset">取消</button><button id="confirm-reset" class="primary">確認重設</button></div></dialog>
+<script type="application/json" id="workbook">{"sheets":[{"name":"訓練課表","cells":{"A1":{"v":"2027 渣打半馬訓練課表","fmt":"General"},"A2":{"v":"整體完成率","fmt":"General"},"C2":{"v":"完成次數 / 總次數","fmt":"General"},"E2":{"v":"已完成實際里程","fmt":"General"},"G2":{"v":"已完成實際時間","fmt":"General"},"I2":{"v":"平均配速","fmt":"General"},"K2":{"v":"操作方式：點選 A 欄儲存格右側箭頭，將 ☐ 改為 ☑。只有 ☑ 的課程才列入完成率、里程、時間、圖表與賽前準備度。","fmt":"General"},"A3":{"v":"=IFERROR(COUNTIF($A$7:$A$27,\"☑\")/ROWS($A$7:$A$27),0)","fmt":"0.0%"},"C3":{"v":"=COUNTIF($A$7:$A$27,\"☑\")&\" / \"&ROWS($A$7:$A$27)","fmt":"General"},"E3":{"v":"=SUMIFS($I$7:$I$27,$A$7:$A$27,\"☑\")","fmt":"0.00\\ \"km\""},"G3":{"v":"=SUMIFS($J$7:$J$27,$A$7:$A$27,\"☑\")","fmt":"[h]:mm:ss"},"I3":{"v":"=IFERROR($G$3/$E$3,0)","fmt":"[m]:ss"},"A6":{"v":"完成","fmt":"General"},"B6":{"v":"日期","fmt":"General"},"C6":{"v":"星期","fmt":"General"},"D6":{"v":"週次","fmt":"General"},"E6":{"v":"階段","fmt":"General"},"F6":{"v":"週主題","fmt":"General"},"G6":{"v":"訓練類型","fmt":"General"},"H6":{"v":"距離(km)","fmt":"General"},"I6":{"v":"實際里程","fmt":"General"},"J6":{"v":"實際時間","fmt":"[h]:mm:ss"},"K6":{"v":"強度/配速","fmt":"General"},"L6":{"v":"訓練重點","fmt":"General"},"M6":{"v":"週計畫里程","fmt":"General"},"N6":{"v":"備註","fmt":"General"},"A7":{"v":"☐","fmt":"General"},"B7":{"v":"2026-11-24","fmt":"m/d"},"C7":{"v":"週二","fmt":"General"},"D7":{"v":"W1","fmt":"General"},"E7":{"v":"恢復期","fmt":"General"},"F7":{"v":"恢復與重啟","fmt":"General"},"G7":{"v":"輕鬆跑","fmt":"General"},"H7":{"v":5,"fmt":"General"},"K7":{"v":"可對話、RPE 3–4","fmt":"General"},"L7":{"v":"全程輕鬆","fmt":"General"},"M7":{"v":18.5,"fmt":"General"},"A8":{"v":"☐","fmt":"General"},"B8":{"v":"2026-11-26","fmt":"m/d"},"C8":{"v":"週四","fmt":"General"},"D8":{"v":"W1","fmt":"General"},"E8":{"v":"恢復期","fmt":"General"},"F8":{"v":"恢復與重啟","fmt":"General"},"G8":{"v":"品質課","fmt":"General"},"H8":{"v":5,"fmt":"General"},"K8":{"v":"恢復跑＋6×20秒加速跑","fmt":"General"},"L8":{"v":"非衝刺","fmt":"General"},"M8":{"v":18.5,"fmt":"General"},"A9":{"v":"☐","fmt":"General"},"B9":{"v":"2026-11-28","fmt":"m/d"},"C9":{"v":"週六","fmt":"General"},"D9":{"v":"W1","fmt":"General"},"E9":{"v":"恢復期","fmt":"General"},"F9":{"v":"恢復與重啟","fmt":"General"},"G9":{"v":"長距離","fmt":"General"},"H9":{"v":10,"fmt":"General"},"K9":{"v":"Easy pace","fmt":"General"},"L9":{"v":"不追配速","fmt":"General"},"M9":{"v":18.5,"fmt":"General"},"A10":{"v":"☐","fmt":"General"},"B10":{"v":"2026-12-01","fmt":"m/d"},"C10":{"v":"週二","fmt":"General"},"D10":{"v":"W2","fmt":"General"},"E10":{"v":"半馬專項期","fmt":"General"},"F10":{"v":"建立節奏","fmt":"General"},"G10":{"v":"輕鬆跑","fmt":"General"},"H10":{"v":6,"fmt":"General"},"K10":{"v":"Easy","fmt":"General"},"L10":{"v":"全程輕鬆","fmt":"General"},"M10":{"v":23.5,"fmt":"General"},"A11":{"v":"☐","fmt":"General"},"B11":{"v":"2026-12-03","fmt":"m/d"},"C11":{"v":"週四","fmt":"General"},"D11":{"v":"W2","fmt":"General"},"E11":{"v":"半馬專項期","fmt":"General"},"F11":{"v":"建立節奏","fmt":"General"},"G11":{"v":"品質課","fmt":"General"},"H11":{"v":7,"fmt":"General"},"K11":{"v":"3×1K 半馬目標配速","fmt":"General"},"L11":{"v":"組間慢跑400m","fmt":"General"},"M11":{"v":23.5,"fmt":"General"},"A12":{"v":"☐","fmt":"General"},"B12":{"v":"2026-12-05","fmt":"m/d"},"C12":{"v":"週六","fmt":"General"},"D12":{"v":"W2","fmt":"General"},"E12":{"v":"半馬專項期","fmt":"General"},"F12":{"v":"建立節奏","fmt":"General"},"G12":{"v":"長距離","fmt":"General"},"H12":{"v":12,"fmt":"General"},"K12":{"v":"Easy pace","fmt":"General"},"L12":{"v":"練習補水","fmt":"General"},"M12":{"v":23.5,"fmt":"General"},"A13":{"v":"☐","fmt":"General"},"B13":{"v":"2026-12-08","fmt":"m/d"},"C13":{"v":"週二","fmt":"General"},"D13":{"v":"W3","fmt":"General"},"E13":{"v":"半馬專項期","fmt":"General"},"F13":{"v":"延長節奏","fmt":"General"},"G13":{"v":"輕鬆跑","fmt":"General"},"H13":{"v":6,"fmt":"General"},"K13":{"v":"Easy","fmt":"General"},"L13":{"v":"全程輕鬆","fmt":"General"},"M13":{"v":26.5,"fmt":"General"},"A14":{"v":"☐","fmt":"General"},"B14":{"v":"2026-12-10","fmt":"m/d"},"C14":{"v":"週四","fmt":"General"},"D14":{"v":"W3","fmt":"General"},"E14":{"v":"半馬專項期","fmt":"General"},"F14":{"v":"延長節奏","fmt":"General"},"G14":{"v":"品質課","fmt":"General"},"H14":{"v":8,"fmt":"General"},"K14":{"v":"2×2K 半馬目標配速","fmt":"General"},"L14":{"v":"組間慢跑800m","fmt":"General"},"M14":{"v":26.5,"fmt":"General"},"A15":{"v":"☐","fmt":"General"},"B15":{"v":"2026-12-12","fmt":"m/d"},"C15":{"v":"週六","fmt":"General"},"D15":{"v":"W3","fmt":"General"},"E15":{"v":"半馬專項期","fmt":"General"},"F15":{"v":"延長節奏","fmt":"General"},"G15":{"v":"長距離","fmt":"General"},"H15":{"v":14,"fmt":"General"},"K15":{"v":"Easy pace","fmt":"General"},"L15":{"v":"最後2K穩定、不硬撐","fmt":"General"},"M15":{"v":26.5,"fmt":"General"},"A16":{"v":"☐","fmt":"General"},"B16":{"v":"2026-12-15","fmt":"m/d"},"C16":{"v":"週二","fmt":"General"},"D16":{"v":"W4","fmt":"General"},"E16":{"v":"半馬專項期","fmt":"General"},"F16":{"v":"節奏耐力","fmt":"General"},"G16":{"v":"輕鬆跑","fmt":"General"},"H16":{"v":6,"fmt":"General"},"K16":{"v":"Easy","fmt":"General"},"L16":{"v":"全程輕鬆","fmt":"General"},"M16":{"v":29,"fmt":"General"},"A17":{"v":"☐","fmt":"General"},"B17":{"v":"2026-12-17","fmt":"m/d"},"C17":{"v":"週四","fmt":"General"},"D17":{"v":"W4","fmt":"General"},"E17":{"v":"半馬專項期","fmt":"General"},"F17":{"v":"節奏耐力","fmt":"General"},"G17":{"v":"品質課","fmt":"General"},"H17":{"v":8,"fmt":"General"},"K17":{"v":"5K Tempo，RPE 6–7","fmt":"General"},"L17":{"v":"含暖身與收操","fmt":"General"},"M17":{"v":29,"fmt":"General"},"A18":{"v":"☐","fmt":"General"},"B18":{"v":"2026-12-19","fmt":"m/d"},"C18":{"v":"週六","fmt":"General"},"D18":{"v":"W4","fmt":"General"},"E18":{"v":"半馬專項期","fmt":"General"},"F18":{"v":"節奏耐力","fmt":"General"},"G18":{"v":"長距離","fmt":"General"},"H18":{"v":16,"fmt":"General"},"K18":{"v":"Easy pace","fmt":"General"},"L18":{"v":"測試比賽早餐/補給","fmt":"General"},"M18":{"v":29,"fmt":"General"},"A19":{"v":"☐","fmt":"General"},"B19":{"v":"2026-12-22","fmt":"m/d"},"C19":{"v":"週二","fmt":"General"},"D19":{"v":"W5","fmt":"General"},"E19":{"v":"半馬專項期","fmt":"General"},"F19":{"v":"高峰週","fmt":"General"},"G19":{"v":"輕鬆跑","fmt":"General"},"H19":{"v":6,"fmt":"General"},"K19":{"v":"Easy","fmt":"General"},"L19":{"v":"全程輕鬆","fmt":"General"},"M19":{"v":30.5,"fmt":"General"},"A20":{"v":"☐","fmt":"General"},"B20":{"v":"2026-12-24","fmt":"m/d"},"C20":{"v":"週四","fmt":"General"},"D20":{"v":"W5","fmt":"General"},"E20":{"v":"半馬專項期","fmt":"General"},"F20":{"v":"高峰週","fmt":"General"},"G20":{"v":"品質課","fmt":"General"},"H20":{"v":8,"fmt":"General"},"K20":{"v":"3×2K 半馬目標配速","fmt":"General"},"L20":{"v":"組間慢跑500m","fmt":"General"},"M20":{"v":30.5,"fmt":"General"},"A21":{"v":"☐","fmt":"General"},"B21":{"v":"2026-12-26","fmt":"m/d"},"C21":{"v":"週六","fmt":"General"},"D21":{"v":"W5","fmt":"General"},"E21":{"v":"半馬專項期","fmt":"General"},"F21":{"v":"高峰週","fmt":"General"},"G21":{"v":"長距離","fmt":"General"},"H21":{"v":18,"fmt":"General"},"K21":{"v":"Easy pace","fmt":"General"},"L21":{"v":"前慢後穩，禁止力竭","fmt":"General"},"M21":{"v":30.5,"fmt":"General"},"A22":{"v":"☐","fmt":"General"},"B22":{"v":"2026-12-29","fmt":"m/d"},"C22":{"v":"週二","fmt":"General"},"D22":{"v":"W6","fmt":"General"},"E22":{"v":"減量與比賽期","fmt":"General"},"F22":{"v":"減量週","fmt":"General"},"G22":{"v":"輕鬆跑","fmt":"General"},"H22":{"v":6,"fmt":"General"},"K22":{"v":"Easy","fmt":"General"},"L22":{"v":"全程輕鬆","fmt":"General"},"M22":{"v":22.5,"fmt":"General"},"A23":{"v":"☐","fmt":"General"},"B23":{"v":"2026-12-31","fmt":"m/d"},"C23":{"v":"週四","fmt":"General"},"D23":{"v":"W6","fmt":"General"},"E23":{"v":"減量與比賽期","fmt":"General"},"F23":{"v":"減量週","fmt":"General"},"G23":{"v":"品質課","fmt":"General"},"H23":{"v":6,"fmt":"General"},"K23":{"v":"3K 半馬目標配速","fmt":"General"},"L23":{"v":"含2K暖身、1K收操","fmt":"General"},"M23":{"v":22.5,"fmt":"General"},"A24":{"v":"☐","fmt":"General"},"B24":{"v":"2027-01-02","fmt":"m/d"},"C24":{"v":"週六","fmt":"General"},"D24":{"v":"W6","fmt":"General"},"E24":{"v":"減量與比賽期","fmt":"General"},"F24":{"v":"減量週","fmt":"General"},"G24":{"v":"長距離","fmt":"General"},"H24":{"v":12,"fmt":"General"},"K24":{"v":"Easy pace","fmt":"General"},"L24":{"v":"舒適完成","fmt":"General"},"M24":{"v":22.5,"fmt":"General"},"A25":{"v":"☐","fmt":"General"},"B25":{"v":"2027-01-05","fmt":"m/d"},"C25":{"v":"週二","fmt":"General"},"D25":{"v":"比賽週","fmt":"General"},"E25":{"v":"減量與比賽期","fmt":"General"},"F25":{"v":"喚醒與比賽","fmt":"General"},"G25":{"v":"輕鬆跑","fmt":"General"},"H25":{"v":4,"fmt":"General"},"K25":{"v":"Easy＋4×20秒加速","fmt":"General"},"L25":{"v":"保持輕快","fmt":"General"},"M25":{"v":28.1,"fmt":"General"},"A26":{"v":"☐","fmt":"General"},"B26":{"v":"2027-01-07","fmt":"m/d"},"C26":{"v":"週四","fmt":"General"},"D26":{"v":"比賽週","fmt":"General"},"E26":{"v":"減量與比賽期","fmt":"General"},"F26":{"v":"喚醒與比賽","fmt":"General"},"G26":{"v":"喚醒跑","fmt":"General"},"H26":{"v":3,"fmt":"General"},"K26":{"v":"非常輕鬆","fmt":"General"},"L26":{"v":"賽前48小時完成","fmt":"General"},"M26":{"v":28.1,"fmt":"General"},"A27":{"v":"☐","fmt":"General"},"B27":{"v":"2027-01-10","fmt":"m/d"},"C27":{"v":"週日","fmt":"General"},"D27":{"v":"比賽週","fmt":"General"},"E27":{"v":"減量與比賽期","fmt":"General"},"F27":{"v":"喚醒與比賽","fmt":"General"},"G27":{"v":"比賽","fmt":"General"},"H27":{"v":21.1,"fmt":"General"},"K27":{"v":"前3K 7:15–7:20/km","fmt":"General"},"L27":{"v":"15K後視狀態加速","fmt":"General"},"M27":{"v":28.1,"fmt":"General"}}},{"name":"儀表板","cells":{"A1":{"v":"2027 渣打半馬｜訓練儀表板","fmt":"General"},"A4":{"v":"課表完成率","fmt":"General"},"D4":{"v":"完成課次","fmt":"General"},"G4":{"v":"已完成實際里程","fmt":"General"},"J4":{"v":"平均配速","fmt":"General"},"A5":{"v":"=訓練課表!A3","fmt":"0%"},"D5":{"v":"=COUNTIF(訓練課表!A7:A27,\"☑\")","fmt":"0"},"G5":{"v":"=訓練課表!E3","fmt":"0.0\" km\""},"J5":{"v":"=訓練課表!I3","fmt":"[m]:ss\" /km\""},"A9":{"v":"週次","fmt":"General"},"B9":{"v":"日期範圍","fmt":"General"},"C9":{"v":"計畫里程","fmt":"General"},"D9":{"v":"☑實際里程","fmt":"General"},"E9":{"v":"完成課次","fmt":"General"},"F9":{"v":"總課次","fmt":"General"},"G9":{"v":"課次完成率","fmt":"General"},"H9":{"v":"平均RPE","fmt":"General"},"I9":{"v":"最大疼痛","fmt":"General"},"J9":{"v":"狀態","fmt":"General"},"A10":{"v":"W1","fmt":"General"},"B10":{"v":"11/24–11/28","fmt":"General"},"C10":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A10,訓練課表!$H$7:$H$27)","fmt":"General"},"D10":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A10,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E10":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A10,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F10":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A10)","fmt":"General"},"G10":{"v":"=IFERROR(E10/F10,0)","fmt":"0%"},"H10":{"v":"請於備註記錄","fmt":"General"},"I10":{"v":"請於備註記錄","fmt":"General"},"J10":{"v":"=IF(G10=1,\"完成\",IF(G10>=0.67,\"穩定\",IF(G10>0,\"需調整\",\"待開始\")))","fmt":"General"},"A11":{"v":"W2","fmt":"General"},"B11":{"v":"12/1–12/5","fmt":"General"},"C11":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A11,訓練課表!$H$7:$H$27)","fmt":"General"},"D11":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A11,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E11":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A11,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F11":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A11)","fmt":"General"},"G11":{"v":"=IFERROR(E11/F11,0)","fmt":"0%"},"H11":{"v":"請於備註記錄","fmt":"General"},"I11":{"v":"請於備註記錄","fmt":"General"},"J11":{"v":"=IF(G11=1,\"完成\",IF(G11>=0.67,\"穩定\",IF(G11>0,\"需調整\",\"待開始\")))","fmt":"General"},"A12":{"v":"W3","fmt":"General"},"B12":{"v":"12/8–12/12","fmt":"General"},"C12":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A12,訓練課表!$H$7:$H$27)","fmt":"General"},"D12":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A12,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E12":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A12,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F12":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A12)","fmt":"General"},"G12":{"v":"=IFERROR(E12/F12,0)","fmt":"0%"},"H12":{"v":"請於備註記錄","fmt":"General"},"I12":{"v":"請於備註記錄","fmt":"General"},"J12":{"v":"=IF(G12=1,\"完成\",IF(G12>=0.67,\"穩定\",IF(G12>0,\"需調整\",\"待開始\")))","fmt":"General"},"A13":{"v":"W4","fmt":"General"},"B13":{"v":"12/15–12/19","fmt":"General"},"C13":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A13,訓練課表!$H$7:$H$27)","fmt":"General"},"D13":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A13,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E13":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A13,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F13":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A13)","fmt":"General"},"G13":{"v":"=IFERROR(E13/F13,0)","fmt":"0%"},"H13":{"v":"請於備註記錄","fmt":"General"},"I13":{"v":"請於備註記錄","fmt":"General"},"J13":{"v":"=IF(G13=1,\"完成\",IF(G13>=0.67,\"穩定\",IF(G13>0,\"需調整\",\"待開始\")))","fmt":"General"},"A14":{"v":"W5","fmt":"General"},"B14":{"v":"12/22–12/26","fmt":"General"},"C14":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A14,訓練課表!$H$7:$H$27)","fmt":"General"},"D14":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A14,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E14":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A14,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F14":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A14)","fmt":"General"},"G14":{"v":"=IFERROR(E14/F14,0)","fmt":"0%"},"H14":{"v":"請於備註記錄","fmt":"General"},"I14":{"v":"請於備註記錄","fmt":"General"},"J14":{"v":"=IF(G14=1,\"完成\",IF(G14>=0.67,\"穩定\",IF(G14>0,\"需調整\",\"待開始\")))","fmt":"General"},"A15":{"v":"W6","fmt":"General"},"B15":{"v":"12/29–1/2","fmt":"General"},"C15":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A15,訓練課表!$H$7:$H$27)","fmt":"General"},"D15":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A15,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E15":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A15,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F15":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A15)","fmt":"General"},"G15":{"v":"=IFERROR(E15/F15,0)","fmt":"0%"},"H15":{"v":"請於備註記錄","fmt":"General"},"I15":{"v":"請於備註記錄","fmt":"General"},"J15":{"v":"=IF(G15=1,\"完成\",IF(G15>=0.67,\"穩定\",IF(G15>0,\"需調整\",\"待開始\")))","fmt":"General"},"A16":{"v":"比賽週","fmt":"General"},"B16":{"v":"1/5–1/10","fmt":"General"},"C16":{"v":"=SUMIF(訓練課表!$D$7:$D$27,A16,訓練課表!$H$7:$H$27)","fmt":"General"},"D16":{"v":"=SUMIFS(訓練課表!$I$7:$I$27,訓練課表!$D$7:$D$27,A16,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"E16":{"v":"=COUNTIFS(訓練課表!$D$7:$D$27,A16,訓練課表!$A$7:$A$27,\"☑\")","fmt":"General"},"F16":{"v":"=COUNTIF(訓練課表!$D$7:$D$27,A16)","fmt":"General"},"G16":{"v":"=IFERROR(E16/F16,0)","fmt":"0%"},"H16":{"v":"請於備註記錄","fmt":"General"},"I16":{"v":"請於備註記錄","fmt":"General"},"J16":{"v":"=IF(G16=1,\"完成\",IF(G16>=0.67,\"穩定\",IF(G16>0,\"需調整\",\"待開始\")))","fmt":"General"}}},{"name":"賽前準備度","cells":{"A1":{"v":"賽前準備度｜Ready Score","fmt":"General"},"A4":{"v":"Ready Score","fmt":"General"},"C4":{"v":"=IF(A5>=85,\"適合挑戰目標：可依 2:30–2:35 策略執行\",IF(A5>=70,\"穩健完賽：前半保守，15K 後再評估\",IF(A5>=50,\"保守配速：以不抽筋與穩定完賽為主\",\"優先恢復／必要時接受運動醫學評估\")))","fmt":"General"},"A5":{"v":"=SUM(C11:C15)","fmt":"0\" / 100\""},"A10":{"v":"評估項目","fmt":"General"},"B10":{"v":"權重","fmt":"General"},"C10":{"v":"目前分數","fmt":"General"},"D10":{"v":"判定方式","fmt":"General"},"E10":{"v":"專業提醒","fmt":"General"},"A11":{"v":"總課次完成率","fmt":"General"},"B11":{"v":25,"fmt":"General"},"C11":{"v":"=MIN(儀表板!$D$5/21,1)*B11","fmt":"0.0"},"D11":{"v":"依 ☑ 完成課次","fmt":"General"},"E11":{"v":"達成計畫即可，不為提高分數額外堆量","fmt":"General"},"A12":{"v":"長距離完成率","fmt":"General"},"B12":{"v":20,"fmt":"General"},"C12":{"v":"=IFERROR(COUNTIFS(訓練課表!$G$7:$G$27,\"長距離\",訓練課表!$A$7:$A$27,\"☑\")/COUNTIF(訓練課表!$G$7:$G$27,\"長距離\"),0)*B12","fmt":"0.0"},"D12":{"v":"僅計 ☑ 長距離","fmt":"General"},"E12":{"v":"W4/W5 長跑須保持 Easy pace","fmt":"General"},"A13":{"v":"品質課完成率","fmt":"General"},"B13":{"v":20,"fmt":"General"},"C13":{"v":"=IFERROR(COUNTIFS(訓練課表!$G$7:$G$27,\"品質課\",訓練課表!$A$7:$A$27,\"☑\")/COUNTIF(訓練課表!$G$7:$G$27,\"品質課\"),0)*B13","fmt":"0.0"},"D13":{"v":"僅計 ☑ 品質課","fmt":"General"},"E13":{"v":"姿勢變形或呼吸失控即放慢","fmt":"General"},"A14":{"v":"16–18K關鍵長跑","fmt":"General"},"B14":{"v":20,"fmt":"General"},"C14":{"v":"=IF(COUNTIFS(訓練課表!$G$7:$G$27,\"長距離\",訓練課表!$A$7:$A$27,\"☑\",訓練課表!$I$7:$I$27,\">=16\")>0,20,0)","fmt":"0.0"},"D14":{"v":"至少一次完成且實際≥16K","fmt":"General"},"E14":{"v":"需無抽筋前兆、隔日可正常走路","fmt":"General"},"A15":{"v":"賽前檢核完成率","fmt":"General"},"B15":{"v":15,"fmt":"General"},"C15":{"v":"=COUNTIF(比賽配速檢核!$A$13:$A$20,\"☑\")/8*B15","fmt":"0.0"},"D15":{"v":"8項檢核","fmt":"General"},"E15":{"v":"早餐、補給、裝備與身體狀況皆需確認","fmt":"General"},"A18":{"v":"判讀","fmt":"General"},"B18":{"v":"85–100 挑戰目標｜70–84 穩健完賽｜50–69 保守配速｜\u003c50 優先恢復/評估","fmt":"General"},"A19":{"v":"紅旗","fmt":"General"},"B19":{"v":"尖銳痛、步態不對稱、疼痛逐日加劇、抽筋後持續無力：停止品質課並尋求專業評估。","fmt":"General"}}},{"name":"比賽配速檢核","cells":{"A1":{"v":"渣打半馬｜比賽配速與賽前檢核","fmt":"General"},"A4":{"v":"主目標","fmt":"General"},"B4":{"v":"2:30–2:35","fmt":"General"},"D4":{"v":"原則","fmt":"General"},"E4":{"v":"前3K刻意壓住；15K後腿與呼吸都正常才加速","fmt":"General"},"A7":{"v":"區段","fmt":"General"},"B7":{"v":"建議配速","fmt":"General"},"C7":{"v":"執行重點","fmt":"General"},"D7":{"v":"防抽筋提醒","fmt":"General"},"A8":{"v":"0–3K","fmt":"General"},"B8":{"v":"7:15–7:20/km","fmt":"General"},"C8":{"v":"刻意壓住，不追人","fmt":"General"},"D8":{"v":"呼吸可控、步幅自然","fmt":"General"},"A9":{"v":"3–15K","fmt":"General"},"B9":{"v":"7:05–7:15/km","fmt":"General"},"C9":{"v":"穩定巡航","fmt":"General"},"D9":{"v":"補水少量多次","fmt":"General"},"A10":{"v":"15–18K","fmt":"General"},"B10":{"v":"維持目標配速","fmt":"General"},"C10":{"v":"先確認無抽筋前兆","fmt":"General"},"D10":{"v":"有緊繃即縮短步幅","fmt":"General"},"A11":{"v":"18–21.1K","fmt":"General"},"B11":{"v":"依體感加速","fmt":"General"},"C11":{"v":"僅姿勢與呼吸正常時加速","fmt":"General"},"D11":{"v":"不要突然拉大步幅","fmt":"General"},"A12":{"v":"完成","fmt":"General"},"B12":{"v":"賽前檢核項目","fmt":"General"},"C12":{"v":"判定標準","fmt":"General"},"D12":{"v":"備註","fmt":"General"},"A13":{"v":"☐","fmt":"General"},"B13":{"v":"完成16–18K長跑且無抽筋前兆","fmt":"General"},"C13":{"v":"實際里程≥16K，過程無局部痙攣","fmt":"General"},"A14":{"v":"☐","fmt":"General"},"B14":{"v":"長跑隔日可正常走路與上下樓","fmt":"General"},"C14":{"v":"疲勞可接受、無單點壓痛","fmt":"General"},"A15":{"v":"☐","fmt":"General"},"B15":{"v":"目標配速課可控且姿勢未變形","fmt":"General"},"C15":{"v":"呼吸可控，結束後仍有餘裕","fmt":"General"},"A16":{"v":"☐","fmt":"General"},"B16":{"v":"比賽早餐已於長跑測試","fmt":"General"},"C16":{"v":"起跑前2–3小時，低纖低脂","fmt":"General"},"A17":{"v":"☐","fmt":"General"},"B17":{"v":"能量膠與飲水測試後腸胃正常","fmt":"General"},"C17":{"v":"約40–45與80–90分鐘，搭配水","fmt":"General"},"A18":{"v":"☐","fmt":"General"},"B18":{"v":"最近7天無尖銳痛或步態不對稱","fmt":"General"},"C18":{"v":"若有紅旗症狀，優先休息/評估","fmt":"General"},"A19":{"v":"☐","fmt":"General"},"B19":{"v":"裝備、號碼布、補給已備妥","fmt":"General"},"C19":{"v":"不在比賽日使用新裝備或新補給","fmt":"General"},"A20":{"v":"☐","fmt":"General"},"B20":{"v":"已設定前3K保守配速提醒","fmt":"General"},"C20":{"v":"手錶提醒7:15–7:20/km","fmt":"General"}}},{"name":"使用說明","cells":{"A1":{"v":"使用說明與訓練原則","fmt":"General"},"A4":{"v":"勾選方式","fmt":"General"},"B4":{"v":"訓練課表 A 欄使用下拉選單：☐ 未完成、☑ 完成。只有 ☑ 才納入完成率、實際里程、實際時間、圖表與 Ready Score。","fmt":"General"},"A5":{"v":"達成率","fmt":"General"},"B5":{"v":"完成計畫下限即足夠；超出課表不額外加分，避免為提高數字而堆里程。","fmt":"General"},"A6":{"v":"強度原則","fmt":"General"},"B6":{"v":"輕鬆跑與長距離以可完整對話、RPE 3–4為主；半馬目標配速先以7:05–7:20/km測試，姿勢變形或呼吸失控即放慢。","fmt":"General"},"A7":{"v":"防抽筋","fmt":"General"},"B7":{"v":"每週2次、每次15–20分鐘：直膝提踵、屈膝提踵、保加利亞蹲、單腳硬舉。疼痛或抽筋≥4/10取消品質課。","fmt":"General"},"A8":{"v":"補給","fmt":"General"},"B8":{"v":"預估半馬超過2小時：可於40–45與80–90分鐘補膠並搭配水；早餐與補給先於W4/W5長跑測試。","fmt":"General"},"A9":{"v":"比賽策略","fmt":"General"},"B9":{"v":"主目標暫估2:30–2:35；前3K 7:15–7:20/km，3–15K 7:05–7:15/km，15K後狀態正常才加速。","fmt":"General"},"A10":{"v":"醫療提醒","fmt":"General"},"B10":{"v":"本檔為訓練建議，不是醫療診斷。若有尖銳痛、腫脹、步態不對稱或持續無力，應接受運動醫學/物理治療評估。","fmt":"General"}}}],"corrections":[{"sheet":"賽前準備度","cell":"C11","original":"=MIN(儀表板!$B$5/21,1)*B11","formula":"=MIN(儀表板!$D$5/21,1)*B11","note":"總課次完成率：改引用儀表板 D5（完成課次），原 B5 是合併區空白。"},{"sheet":"賽前準備度","cell":"C15","original":"=COUNTIF(比賽配速檢核!$B$13:$B$20,\"☑\")/8*B15","formula":"=COUNTIF(比賽配速檢核!$A$13:$A$20,\"☑\")/8*B15","note":"賽前檢核完成率：改計算 A13:A20 的勾選，原 B 欄為項目文字。"}]}</script>
+<script type="application/json" id="embedded-state">{}</script>
+<script>
+'use strict';
+const MODEL=JSON.parse(document.getElementById('workbook').textContent);
+const INITIAL=JSON.parse(document.getElementById('embedded-state').textContent);
+const snapshotId=[...JSON.stringify(INITIAL)].reduce((hash,c)=>Math.imul(hash,31)+c.charCodeAt(0)|0,0);
+const STORAGE='harbor-running-2027-7212485982-v1-'+snapshotId;
+const sheets=Object.fromEntries(MODEL.sheets.map(s=>[s.name,s.cells]));
+let edits={},cache=new Map(),active='訓練課表',weekFilter='',typeFilter='';
+const $=id=>document.getElementById(id);
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const key=(s,a)=>s+'!'+a.replace(/\$/g,'');
+const editable=(s,a)=>s==='訓練課表'&&/^(A|H|I|J|N)([7-9]|1\d|2[0-7])$/.test(a)||s==='比賽配速檢核'&&/^(A|D)(1[3-9]|20)$/.test(a);
+function validateEdits(data){
+ if(!data||typeof data!=='object'||Array.isArray(data))throw Error('備份內容不是有效的紀錄物件。');
+ const result={};
+ for(const [k,v] of Object.entries(data)){
+  const pos=k.lastIndexOf('!'),s=k.slice(0,pos),a=k.slice(pos+1);
+  if(!editable(s,a))throw Error('備份含有不允許修改的儲存格：'+k);
+  if(a[0]==='A'&&!['☐','☑'].includes(v))throw Error('完成欄必須為 ☐ 或 ☑。');
+  if(['H','I','J'].includes(a[0])&&v!==''&&(typeof v!=='number'||!Number.isFinite(v)||v<0))throw Error('里程與時間必須為非負的有效數字。');
+  if(a[0]==='N'||a[0]==='D'){if(typeof v!=='string'||v.length>10000)throw Error('備註格式不正確或超過 10,000 字。');}
+  result[k]=v;
+ }
+ return result;
+}
+function showError(text){$('message').hidden=false;$('message').className='error';$('message').textContent=text;}
+function clearError(){$('message').hidden=true;$('message').textContent='';}
+function load(){
+ try{edits=validateEdits(INITIAL);}catch(e){showError('檔案內的紀錄無法讀取：'+e.message);}
+ try{
+  const stored=localStorage.getItem(STORAGE);
+  if(stored)edits=validateEdits(JSON.parse(stored));
+  $('save-status').textContent=stored?'已載入此瀏覽器儲存的紀錄。':Object.keys(INITIAL).length?'已載入此 HTML 內附的紀錄。':'紀錄會自動儲存在此瀏覽器。';
+ }catch(e){$('save-status').textContent='無法讀取瀏覽器儲存；請使用下載備份。';showError('瀏覽器紀錄無法讀取：'+e.message+'。可繼續操作並下載備份。');}
+}
+function save(){
+ try{localStorage.setItem(STORAGE,JSON.stringify(edits));$('save-status').textContent='已儲存於此瀏覽器 · '+new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false}).format(new Date());}
+ catch(e){$('save-status').textContent='尚未儲存：請下載備份或含紀錄的 HTML。';showError('瀏覽器無法儲存紀錄：'+e.message+'。目前畫面仍可使用，關閉前請下載備份。');}
+}
+// This parser covers every formula in the supplied workbook without executing formula text as JavaScript.
+function tokenize(source){
+ const tokens=[];let i=0;
+ while(i<source.length){
+  if(/\s/.test(source[i])){i++;continue;}
+  if(source[i]==='"'){let value='',closed=false;i++;while(i<source.length){if(source[i]==='"'){if(source[i+1]==='"'){value+='"';i+=2;}else{i++;closed=true;break;}}else value+=source[i++];}if(!closed)throw Error('文字未結束');tokens.push({t:'str',v:value});continue;}
+  const remaining=source.slice(i);let m=remaining.match(/^(?:(?:'[^']+'|[A-Za-z_\u0080-\uffff][A-Za-z0-9_\u0080-\uffff]*)!)?\$?[A-Z]+\$?\d+(?::\$?[A-Z]+\$?\d+)?(?![A-Za-z0-9_])/);
+  if(m){tokens.push({t:'ref',v:m[0]});i+=m[0].length;continue;}
+  m=remaining.match(/^\d+(?:\.\d+)?/);if(m){tokens.push({t:'num',v:Number(m[0])});i+=m[0].length;continue;}
+  m=remaining.match(/^[A-Za-z_][A-Za-z0-9_]*/);if(m){tokens.push({t:'name',v:m[0].toUpperCase()});i+=m[0].length;continue;}
+  m=remaining.match(/^(>=|<=|<>|[()+\-*/&,=<>])/);if(m){tokens.push({t:m[0],v:m[0]});i+=m[0].length;continue;}
+  throw Error('不支援的公式符號：'+remaining);
+ }
+ return tokens;
+}
+function parseFormula(formula){
+ const t=tokenize(formula.slice(1));let p=0;
+ const precedence={'=':1,'<>':1,'>':1,'<':1,'>=':1,'<=':1,'&':2,'+':3,'-':3,'*':4,'/':4};
+ function atom(){
+  const x=t[p++];if(!x)throw Error('公式不完整');
+  if(x.t==='num'||x.t==='str')return {kind:'literal',value:x.v};
+  if(x.t==='ref')return {kind:'ref',value:x.v};
+  if(x.t==='+'||x.t==='-')return {kind:'unary',op:x.t,arg:atom()};
+  if(x.t==='('){const n=expr(0);if(t[p++]?.t!==')')throw Error('缺少右括號');return n;}
+  if(x.t==='name'){if(t[p++]?.t!=='(')throw Error('未知名稱 '+x.v);const args=[];if(t[p]?.t!==')'){do{args.push(expr(0));if(t[p]?.t!==',')break;p++;}while(true);}if(t[p++]?.t!==')')throw Error('函式缺少右括號');return {kind:'call',name:x.v,args};}
+  throw Error('不支援的公式語法');
+ }
+ function expr(min){let node=atom();while(t[p]&&precedence[t[p].t]>=min){const op=t[p++].t;node={kind:'binary',op,left:node,right:expr(precedence[op]+1)};}return node;}
+ const node=expr(0);if(p!==t.length)throw Error('公式含未解析內容');return node;
+}
+const ast=new Map();
+const num=v=>{if(v===''||v==null)return 0;if(typeof v==='boolean')return v?1:0;if(typeof v!=='number'||!Number.isFinite(v))throw Error('#VALUE!');return v;};
+const flat=v=>Array.isArray(v)?v.flat(Infinity):[v];
+function refValues(ref,s,trail){
+ let address=ref,source=s;if(ref.includes('!')){const i=ref.lastIndexOf('!');source=ref.slice(0,i).replace(/^'|'$/g,'');address=ref.slice(i+1);}
+ address=address.replace(/\$/g,'');
+ if(!sheets[source])throw Error('#REF! '+source);
+ if(!address.includes(':'))return cell(source,address,trail);
+ const [start,end]=address.split(':').map(a=>a.match(/^([A-Z]+)(\d+)$/));
+ const col=a=>[...a].reduce((n,c)=>n*26+c.charCodeAt(0)-64,0);
+ const letter=n=>{let a='';while(n){n--;a=String.fromCharCode(65+n%26)+a;n=Math.floor(n/26);}return a;};
+ const result=[];for(let r=+start[2];r<=+end[2];r++){const row=[];for(let c=col(start[1]);c<=col(end[1]);c++)row.push(cell(source,letter(c)+r,trail));result.push(row);}return result;
+}
+function matches(value,criterion){
+ if(typeof criterion!=='string')return value===criterion;
+ const m=criterion.match(/^(>=|<=|<>|>|<|=)(.*)$/);
+ if(m){const rhs=m[2]!==''&&Number.isFinite(Number(m[2]))?Number(m[2]):m[2];const lhs=typeof rhs==='number'?num(value):value;return compare(m[1],lhs,rhs);}
+ return String(value??'').toLowerCase()===criterion.toLowerCase();
+}
+function compare(op,a,b){switch(op){case '=':return a===b;case '<>':return a!==b;case '>':return a>b;case '<':return a<b;case '>=':return a>=b;case '<=':return a<=b;default:throw Error('未知比較');}}
+function calculate(node,s,trail){
+ if(node.kind==='literal')return node.value;
+ if(node.kind==='ref')return refValues(node.value,s,trail);
+ if(node.kind==='unary')return (node.op==='-'?-1:1)*num(calculate(node.arg,s,trail));
+ if(node.kind==='binary'){
+  const a=calculate(node.left,s,trail),b=calculate(node.right,s,trail);
+  if(node.op==='&')return String(a??'')+String(b??'');
+  if(['=','<>','>','<','>=','<='].includes(node.op))return compare(node.op,a,b);
+  if(node.op==='+')return num(a)+num(b);if(node.op==='-')return num(a)-num(b);if(node.op==='*')return num(a)*num(b);
+  if(num(b)===0)throw Error('#DIV/0!');return num(a)/num(b);
+ }
+ if(node.name==='IF')return calculate(node.args[calculate(node.args[0],s,trail)?1:2],s,trail);
+ if(node.name==='IFERROR'){try{return calculate(node.args[0],s,trail);}catch(e){if(!/^#(DIV\/0!|VALUE!|REF!)/.test(e.message))throw e;return calculate(node.args[1],s,trail);}}
+ const a=node.args.map(x=>calculate(x,s,trail));
+ switch(node.name){
+  case 'ROWS':return Array.isArray(a[0])?a[0].length:1;
+  case 'SUM':return a.flat(Infinity).reduce((n,x)=>n+(typeof x==='number'?x:0),0);
+  case 'MIN':return Math.min(...a.flat(Infinity).map(num));
+  case 'COUNTIF':return flat(a[0]).filter(v=>matches(v,a[1])).length;
+  case 'SUMIF':return flat(a[0]).reduce((n,v,i)=>n+(matches(v,a[1])?num(flat(a[2])[i]):0),0);
+  case 'COUNTIFS':case 'SUMIFS':{
+   const sum=node.name==='SUMIFS',offset=sum?1:0,ranges=[];for(let i=offset;i<a.length;i+=2)ranges.push([flat(a[i]),a[i+1]]);
+   if(ranges.some(([r])=>r.length!==ranges[0][0].length))throw Error('#VALUE!');
+   return ranges[0][0].reduce((n,_,i)=>n+(ranges.every(([r,c])=>matches(r[i],c))?(sum?num(flat(a[0])[i]):1):0),0);
+  }
+  default:throw Error('不支援函式 '+node.name);
+ }
+}
+function cell(s,a,trail=new Set()){
+ const k=key(s,a);if(cache.has(k))return cache.get(k);
+ if(trail.has(k))throw Error('循環引用 '+k);
+ const value=Object.hasOwn(edits,k)?edits[k]:(sheets[s]?.[a]?.v??'');
+ if(typeof value!=='string'||!value.startsWith('=')||Object.hasOwn(edits,k))return value;
+ if(!ast.has(value))ast.set(value,parseFormula(value));
+ const next=new Set(trail);next.add(k);const result=calculate(ast.get(value),s,next);cache.set(k,result);return result;
+}
+function duration(value,pace=false){const seconds=Math.round(num(value)*86400);return pace?Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0'):Math.floor(seconds/3600)+':'+String(Math.floor(seconds%3600/60)).padStart(2,'0')+':'+String(seconds%60).padStart(2,'0');}
+function formatted(s,a){
+ const v=cell(s,a),fmt=sheets[s]?.[a]?.fmt??'General';
+ if(typeof v!=='number')return String(v??'');
+ if(fmt.includes('[h]'))return duration(v);
+ if(fmt.includes('[m]'))return duration(v,true)+(fmt.includes('/km')?' /km':'');
+ if(fmt.includes('%'))return (v*100).toFixed(fmt.includes('0.0')?1:0)+'%';
+ if(fmt.includes('/ 100'))return v.toFixed(1)+' / 100';
+ if(fmt.includes('km'))return v.toFixed(fmt.includes('0.00')?2:1)+' km';
+ if(fmt==='0.0')return v.toFixed(1);
+ return Number(v.toFixed(5)).toString();
+}
+function valueSpan(s,a){return `<span data-cell="${esc(key(s,a))}" title="${esc(sheets[s]?.[a]?.v??'')}">${esc(formatted(s,a))}</span>`;}
+function metric(label,s,a,unit=''){return `<div class="metric"><small>${label}</small><strong>${valueSpan(s,a)}</strong>${unit?`<span class="unit">${unit}</span>`:''}</div>`;}
+function metrics(){return `<div class="metrics">${metric('課表完成率','訓練課表','A3')}${metric('完成課次 / 全部課次','訓練課表','C3')}${metric('已完成實際里程','訓練課表','E3')}${metric('已完成實際時間','訓練課表','G3')}${metric('平均配速','訓練課表','I3','min:sec / km')}</div>`;}
+function head(title,sub,chip){return `<div class="section-head"><div><h2>${title}</h2><p>${sub}</p></div><span class="chip">${chip}</span></div>`;}
+function missing(){
+ let n=0;for(let r=7;r<=27;r++)if(cell('訓練課表','A'+r)==='☑'&&(cell('訓練課表','I'+r)===''||cell('訓練課表','J'+r)===''))n++;
+ return n?`<div class="callout">${n} 堂已勾選課程尚缺實際里程或時間。完成率仍會計入；缺值依原公式視為 0，因此平均配速可能失真，請補齊紀錄。</div>`:'';
+}
+const mobileLayout=matchMedia('screen and (max-width:760px)');
+const openCourses=new Set();
+function courseCards(){
+ const s='訓練課表',cards=[];
+ for(let r=7;r<=27;r++){
+  if(weekFilter&&cell(s,'D'+r)!==weekFilter||typeFilter&&cell(s,'G'+r)!==typeFilter)continue;
+  const done=cell(s,'A'+r)==='☑',date=cell(s,'B'+r),type=cell(s,'G'+r);
+  const input=(a,label,kind,placeholder='')=>`<label>${label}<input type="${kind}" ${kind==='number'?'min="0" step="any"':''} data-edit="${key(s,a+r)}" aria-label="${date}${label}" value="${esc(a==='J'?(cell(s,a+r)===''?'':duration(cell(s,a+r))):cell(s,a+r))}" placeholder="${placeholder}"></label>`;
+  cards.push(`<article class="course-card ${done?'completed':''}"><div class="course-heading"><div><h3>${esc(date.slice(5).replace('-',' / '))}</h3><small>${esc(date.slice(0,4))} · ${esc(cell(s,'C'+r))} · ${esc(cell(s,'D'+r))}</small></div><label class="course-complete"><input type="checkbox" data-edit="${key(s,'A'+r)}" aria-label="${date}完成" ${done?'checked':''}>完成</label></div><div class="course-topic"><span class="tag ${type==='長距離'?'long':type==='比賽'?'race':''}">${esc(type)}</span><span>${esc(cell(s,'F'+r))}</span></div><div class="course-records">${input('I','實際里程','number','km')}${input('J','實際時間','text','h:mm:ss')}</div><details class="course-details" data-course="${r}" ${openCourses.has(String(r))?'open':''}><summary>課程內容與備註${cell(s,'N'+r)!==''?' · 已有備註':''}</summary><p>${esc(cell(s,'E'+r))} · 強度／配速：${esc(cell(s,'K'+r))}</p><p>訓練重點：${esc(cell(s,'L'+r))}</p><div class="course-details-grid">${input('H','計畫距離','number','km')}<div><small>原表週計畫里程</small><p class="numeric">${esc(cell(s,'M'+r))} km</p></div><label class="wide">備註<textarea maxlength="10000" data-edit="${key(s,'N'+r)}" aria-label="${date}備註" placeholder="體感、RPE、疼痛">${esc(cell(s,'N'+r))}</textarea></label></div></details></article>`);
+ }
+ return `<div class="course-cards">${cards.join('')||'<div class="empty">此篩選沒有課程，請從 ☰ 選單調整篩選。</div>'}</div>`;
+}
+function courseTable(){
+ if(mobileLayout.matches)return courseCards();
+ const s='訓練課表',rows=[];
+ for(let r=7;r<=27;r++){
+  if(weekFilter&&cell(s,'D'+r)!==weekFilter||typeFilter&&cell(s,'G'+r)!==typeFilter)continue;
+  const done=cell(s,'A'+r)==='☑',date=cell(s,'B'+r),type=cell(s,'G'+r);
+  rows.push(`<tr class="${done?'completed':''}"><td><input type="checkbox" data-edit="${key(s,'A'+r)}" aria-label="${date}完成" ${done?'checked':''}></td><td class="date">${esc(date)}<br><small>${esc(cell(s,'C'+r))}</small></td><td>${esc(cell(s,'D'+r))}<br><small>${esc(cell(s,'E'+r))}</small></td><td>${esc(cell(s,'F'+r))}</td><td><span class="tag ${type==='長距離'?'long':type==='比賽'?'race':''}">${esc(type)}</span></td><td><input type="number" min="0" step="any" data-edit="${key(s,'H'+r)}" aria-label="${date}計畫距離" value="${esc(cell(s,'H'+r))}"></td><td><input type="number" min="0" step="any" data-edit="${key(s,'I'+r)}" aria-label="${date}實際里程" value="${esc(cell(s,'I'+r))}" placeholder="km"></td><td><input type="text" inputmode="text" data-edit="${key(s,'J'+r)}" aria-label="${date}實際時間" value="${cell(s,'J'+r)===''?'':duration(cell(s,'J'+r))}" placeholder="h:mm:ss"></td><td>${esc(cell(s,'K'+r))}</td><td>${esc(cell(s,'L'+r))}</td><td class="numeric">${esc(cell(s,'M'+r))}</td><td><textarea maxlength="10000" data-edit="${key(s,'N'+r)}" aria-label="${date}備註" placeholder="體感、RPE、疼痛">${esc(cell(s,'N'+r))}</textarea></td></tr>`);
+ }
+ return `<div class="table-wrap" tabindex="0" aria-label="訓練課表，可左右捲動"><table class="data-table"><thead><tr>${['完成','日期 / 星期','週次 / 階段','週主題','訓練類型','計畫 km','實際 km','實際時間','強度 / 配速','訓練重點','原表週計畫 km','備註'].map(h=>`<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>${rows.join('')||'<tr><td colspan="12" class="empty">此篩選沒有課程，請調整週次或訓練類型。</td></tr>'}</tbody></table></div>`;
+}
+function training(){
+ const filterNote=weekFilter||typeFilter?`目前篩選：${[weekFilter,typeFilter].filter(Boolean).join(' · ')}。`:'';
+ return head('訓練課表',filterNote+'勾選完成後，才納入統計。切換與篩選都在 ☰ 選單。','21 堂 · 二四六為主')+metrics()+missing()+courseTable()+`<p class="note">時間輸入 h:mm:ss，例如 0:45:30；空白代表未記錄，0 代表實際為零。手機點「課程內容與備註」可調整計畫距離與補充紀錄。</p><details class="technical"><summary>原表週里程與計算提醒</summary><p>原檔 M 欄的 W1–W6 週里程為固定數字，與 H 欄逐課加總不一致。本頁保留它作為「原表週計畫」；儀表板依原本 SUMIF 公式重新加總，分別為 20、25、28、30、32、24 km，比賽週 28.1 km（未調整前）。Excel 匯出的「週計畫里程」沿用原表 M 欄，並非調整後加總。</p></details>`;
+}
+function dashboard(){
+ const s='儀表板',rows=[];
+ for(let r=10;r<=16;r++)rows.push(`<tr>${'ABCDEFGHIJ'.split('').map(a=>`<td>${valueSpan(s,a+r)}</td>`).join('')}</tr>`);
+ const max=Math.max(1,...Array.from({length:7},(_,i)=>Math.max(num(cell(s,'C'+(i+10))),num(cell(s,'D'+(i+10))))));
+ const bars=Array.from({length:7},(_,i)=>{const r=i+10,p=num(cell(s,'C'+r)),a=num(cell(s,'D'+r));return `<div><div class="bar-pair" role="img" aria-label="${esc(cell(s,'A'+r))} 計畫 ${p} km，已完成實際 ${a} km"><div class="bar" style="height:${p/max*100}%" title="計畫 ${p} km"></div><div class="bar actual" style="height:${a/max*100}%" title="實際 ${a} km"></div></div><div class="bar-label">${esc(cell(s,'A'+r))}<br><span class="numeric">${a.toFixed(1)} km</span></div></div>`;}).join('');
+ return head('訓練儀表板','看見每週的累積，不為分數額外堆量。','7 週 · 自動更新')+metrics()+missing()+`<div class="chart"><h3>每週里程 · 計畫與實際</h3><div class="legend"><i></i>計畫里程<i></i>已勾選的實際里程</div><div class="chart-grid">${bars}</div></div><div class="table-wrap" tabindex="0" aria-label="每週統計，可左右捲動"><table class="data-table"><thead><tr>${['週次','日期範圍','計畫 km','☑ 實際 km','完成課次','總課次','完成率','平均 RPE','最大疼痛','狀態'].map(x=>`<th scope="col">${x}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div><p class="note">平均 RPE 與最大疼痛依原檔保留「請於備註記錄」，不從自由文字推估。狀態門檻照原公式：完成 100%、穩定 ≥67%、需調整 >0%；2/3 約 66.7%，原規則仍顯示「需調整」。</p>`;
+}
+function ready(){
+ const s='賽前準備度',score=num(cell(s,'A5')),items=[];
+ for(let r=11;r<=15;r++)items.push(`<tr><td>${valueSpan(s,'A'+r)}</td><td class="numeric">${valueSpan(s,'B'+r)}</td><td class="numeric">${valueSpan(s,'C'+r)}</td><td>${valueSpan(s,'D'+r)}</td><td>${valueSpan(s,'E'+r)}</td></tr>`);
+ return head('賽前準備度','照原表權重計分；分數是課表檢核，不是健康或完賽保證。','Ready Score')+`<div class="ready-hero"><div class="score-ring"><svg viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="86" fill="none" stroke="#f5f7f3" stroke-width="9"/><circle cx="100" cy="100" r="86" fill="none" stroke="#416856" stroke-width="9" stroke-dasharray="${Math.min(score,100)/100*540.35} 540.35" stroke-linecap="round"/></svg><div class="score-text"><strong data-cell="${key(s,'A5')}">${score.toFixed(1)}</strong><small>/ 100 · 原表評分</small></div></div><div><h3>${valueSpan(s,'C4')}</h3><p>85–100 挑戰目標 · 70–84 穩健完賽<br>50–69 保守配速 · 低於 50 優先恢復／評估</p></div></div><div class="table-wrap" tabindex="0" aria-label="準備度評分"><table class="data-table"><thead><tr>${['評估項目','權重','目前分數','判定方式','專業提醒'].map(x=>`<th scope="col">${x}</th>`).join('')}</tr></thead><tbody>${items.join('')}</tbody></table></div><div class="callout"><strong>身體訊號優先於分數。</strong> ${esc(cell(s,'B19'))} 高分不能證明無抽筋風險，也不能取代專業評估。</div><p class="note">已修正原表兩個錯欄引用：完成課次改讀儀表板 D5；賽前檢核改計算 A13:A20 的勾選。16–18K 項目依原式只確認「長距離、已勾選、實際 ≥16K」，無抽筋及隔日恢復須由你在賽前檢核確認。</p>`;
+}
+function race(){
+ const s='比賽配速檢核',rows=[];for(let r=8;r<=11;r++)rows.push(`<tr>${'ABCD'.split('').map(a=>`<td>${valueSpan(s,a+r)}</td>`).join('')}</tr>`);
+ const checks=[];let count=0;for(let r=13;r<=20;r++){const done=cell(s,'A'+r)==='☑';if(done)count++;checks.push(`<div class="check-card ${done?'done':''}"><input type="checkbox" id="check-${r}" data-edit="${key(s,'A'+r)}" aria-label="${esc(cell(s,'B'+r))}" ${done?'checked':''}><div style="flex:1"><label for="check-${r}">${esc(cell(s,'B'+r))}</label><small>${esc(cell(s,'C'+r))}</small><textarea maxlength="10000" data-edit="${key(s,'D'+r)}" aria-label="檢核 ${r-12} 備註" placeholder="補充你的確認紀錄">${esc(cell(s,'D'+r))}</textarea></div></div>`);}
+ return head('比賽配速與賽前檢核','保留原檔策略。先確認恢復與補給，不追著他人的速度跑。','2027 / 01 / 10')+`<div class="callout"><strong>原表主目標：${esc(cell(s,'B4'))}</strong><br>${esc(cell(s,'E4'))}。此為原表暫估，並非重新評估後的保證。</div><div class="table-wrap" tabindex="0" aria-label="比賽配速策略"><table class="data-table"><thead><tr>${['區段','建議配速','執行重點','防抽筋提醒'].map(x=>`<th scope="col">${x}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div><h3 style="margin:28px 0 8px">賽前檢核 <span class="numeric">${count} / 8</span></h3><div class="progress"><span style="width:${count/8*100}%"></span></div><div class="check-grid">${checks.join('')}</div>`;
+}
+function guide(){
+ const s='使用說明',cards=[];for(let r=4;r<=10;r++)cards.push(`<article class="guide-card"><h3>${esc(cell(s,'A'+r))}</h3><p>${esc(cell(s,'B'+r))}</p></article>`);
+ const formulas=MODEL.sheets.flatMap(sheet=>Object.entries(sheet.cells).filter(([,c])=>String(c.v).startsWith('=')).map(([a,c])=>`<tr><td>${esc(sheet.name+'!'+a)}</td><td><code>${esc(c.v)}</code></td><td>${valueSpan(sheet.name,a)}</td></tr>`));
+ return head('使用說明與訓練原則','原檔內容完整保留；網頁操作方式補充如下。','離線手帳')+`<article class="guide-card" style="margin-bottom:15px"><h3>這份 HTML 怎麼用？</h3><p>點右上角 ☰，可切換五個工作表、篩選課程、匯入及匯出。手機卡片優先顯示日期與實際紀錄；點「課程內容與備註」可展開強度、重點、計畫距離與備註。訓練完成後勾選，填入實際 km 與 h:mm:ss；尚未記錄請留白，不要用 0 代替未知。所有公式及圖表會自動更新，公式欄不能直接改寫。</p><p>Excel 匯出全部 21 堂課程的 13 欄資料，包含未勾選課程的已填紀錄；不受畫面篩選影響。「實際時間」為可加總的時間格式，空白仍保留空白。「週計畫里程」沿用原表 M 欄。Excel 不包含完成勾選與賽前檢核，也不能匯回本頁；要保留完整狀態或換裝置接續編輯，請使用 JSON 備份。</p><p>儲存只在目前瀏覽器，不會回寫原始 Excel，也不會上傳資料。下載含紀錄的 HTML 可保留當下資料；首次開啟載入內附紀錄，之後優先讀取此瀏覽器保存的同一快照新紀錄。不同快照分開儲存。倒數在開啟、回到頁面及停留期間依當下台灣日期刷新，賽日顯示今天，賽後顯示已過天數。</p></article><div class="guide-grid">${cards.join('')}</div><details class="technical"><summary>原表公式修正與資料提醒</summary>${MODEL.corrections.map(c=>`<p>${esc(c.note)}<br>原式：<code>${esc(c.original)}</code><br>修正式：<code>${esc(c.formula)}</code></p>`).join('')}<p>原課表 M 欄是固定週里程，與逐課距離不同；本頁保留原值，週統計改由原有 SUMIF 公式自動加總。沒有更改訓練日期、強度、長跑安排或比賽目標。</p><p>原檔的「下拉勾選」指 Excel 操作；HTML 請直接點選方框。原檔含已過日期，未完成的課不代表需要補跑。倒數只依台灣日曆日計算，未假設起跑時間。</p></details><details class="technical"><summary>全部 ${formulas.length} 個公式與目前計算值</summary><div class="table-wrap" tabindex="0" style="margin-top:15px"><table class="data-table"><thead><tr><th scope="col">位置</th><th scope="col">公式</th><th scope="col">目前值</th></tr></thead><tbody>${formulas.join('')}</tbody></table></div></details>`;
+}
+const renderers={'訓練課表':training,'儀表板':dashboard,'賽前準備度':ready,'比賽配速檢核':race,'使用說明':guide};
+function render(){
+ cache.clear();
+ try{
+  for(const sheet of MODEL.sheets)for(const [a,c] of Object.entries(sheet.cells))if(String(c.v).startsWith('='))cell(sheet.name,a);
+  for(const [s,fn] of Object.entries(renderers)){
+   const panel=document.getElementById('panel-'+MODEL.sheets.findIndex(x=>x.name===s));panel.innerHTML=fn();
+   for(const table of panel.querySelectorAll('.data-table')){
+    const headers=[...table.querySelectorAll('thead th')].map(th=>th.textContent);
+    for(const row of table.querySelectorAll('tbody tr'))[...row.cells].forEach((td,i)=>td.dataset.label=headers[i]??'');
+   }
+  }
+ }catch(e){showError('計算失敗：'+e.message+'。請檢查輸入或匯入資料；未以預設數值代替錯誤。');}
+}
+function choose(name,focus=false){
+ active=name;MODEL.sheets.forEach((s,i)=>{const yes=s.name===name;const tab=$('tab-'+i);tab.setAttribute('aria-selected',String(yes));tab.tabIndex=yes?0:-1;$('panel-'+i).hidden=!yes;if(yes&&focus)tab.focus();});
+ $('current-sheet').textContent=name;
+ $('menu-filters').hidden=name!=='訓練課表';
+}
+function setValue(s,a,v){if(!editable(s,a))throw Error('不可修改公式或固定內容');edits[key(s,a)]=v;save();render();}
+function countdown(now=new Date()){
+ const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
+ const get=t=>Number(parts.find(x=>x.type===t).value);
+ const days=Math.round((Date.UTC(2027,0,10)-Date.UTC(get('year'),get('month')-1,get('day')))/86400000);
+ $('count-number').textContent=String(Math.abs(days));
+ $('count-label').innerHTML=days>0?'天後，渣打半馬<br>2027 / 01 / 10 · 台灣時間':days===0?'今天是比賽日<br>2027 / 01 / 10 · 台灣時間':'天前，比賽日已過<br>2027 / 01 / 10 · 台灣時間';
+ return days;
+}
+function download(content,name,type){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+// A stored ZIP keeps this single-sheet XLSX export self-contained, including offline.
+function zipFiles(files){
+ const encoder=new TextEncoder(),parts=[],central=[];let offset=0;
+ const table=Uint32Array.from({length:256},(_,n)=>{for(let i=0;i<8;i++)n=n&1?0xedb88320^(n>>>1):n>>>1;return n>>>0;});
+ const header=(size,fields)=>{const bytes=new Uint8Array(size),view=new DataView(bytes.buffer);for(const [pos,value,width] of fields)width===4?view.setUint32(pos,value,true):view.setUint16(pos,value,true);return bytes;};
+ for(const [path,content] of files){
+  const name=encoder.encode(path),data=encoder.encode(content);let crc=0xffffffff;
+  for(const byte of data)crc=table[(crc^byte)&255]^(crc>>>8);
+  crc=(crc^0xffffffff)>>>0;
+  const local=header(30,[[0,0x04034b50,4],[4,20,2],[6,0x800,2],[12,0x5e21,2],[14,crc,4],[18,data.length,4],[22,data.length,4],[26,name.length,2]]);
+  const directory=header(46,[[0,0x02014b50,4],[4,20,2],[6,20,2],[8,0x800,2],[14,0x5e21,2],[16,crc,4],[20,data.length,4],[24,data.length,4],[28,name.length,2],[42,offset,4]]);
+  parts.push(local,name,data);central.push(directory,name);offset+=local.length+name.length+data.length;
+ }
+ const centralSize=central.reduce((n,p)=>n+p.length,0);
+ const end=header(22,[[0,0x06054b50,4],[8,files.length,2],[10,files.length,2],[12,centralSize,4],[16,offset,4]]);
+ return new Blob([...parts,...central,end],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'});
+}
+function exportXlsx(){
+ cache.clear();
+ const xml=value=>String(value)
+  .replace(/_x[0-9a-f]{4}_/gi,m=>'_x005F_'+m.slice(1))
+  .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\ufffe\uffff]/g,c=>'_x'+c.charCodeAt(0).toString(16).toUpperCase().padStart(4,'0')+'_')
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+ const headers=['日期','星期','週次','階段','週主題','訓練類型','距離(km)','實際里程','實際時間','強度/配速','訓練重點','週計畫里程','備註'];
+ const rows=[headers];
+ const strings=[],stringIds=new Map();let stringCount=0;
+ for(let r=7;r<=27;r++)rows.push('BCDEFGHIJKLMN'.split('').map(a=>cell('訓練課表',a+r)));
+ const sheetRows=rows.map((row,i)=>`<row r="${i+1}">${row.map((value,j)=>{
+  const address=String.fromCharCode(65+j)+(i+1),style=i===0?1:j===0?2:j===8?3:0;
+  if(i>0&&j===0){const [y,m,d]=String(value).split('-').map(Number);value=(Date.UTC(y,m-1,d)-Date.UTC(1899,11,30))/86400000;}
+  if(value===''||value==null)return `<c r="${address}" s="${style}"/>`;
+  if(typeof value==='number'){if(!Number.isFinite(value))throw Error('匯出欄位含無效數字：'+address);return `<c r="${address}" s="${style}"><v>${value}</v></c>`;}
+  const text=String(value);stringCount++;
+  if(!stringIds.has(text)){stringIds.set(text,strings.length);strings.push(text);}
+  return `<c r="${address}" s="${style}" t="s"><v>${stringIds.get(text)}</v></c>`;
+ }).join('')}</row>`).join('');
+ const ns='http://schemas.openxmlformats.org/spreadsheetml/2006/main';
+ const rel='http://schemas.openxmlformats.org/package/2006/relationships';
+ const officeRel='http://schemas.openxmlformats.org/officeDocument/2006/relationships';
+ const widths=[14,9,10,16,18,14,13,13,16,32,34,17,46];
+ const files=[
+  ['[Content_Types].xml',`<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/><Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/></Types>`],
+  ['_rels/.rels',`<Relationships xmlns="${rel}"><Relationship Id="rId1" Type="${officeRel}/officeDocument" Target="xl/workbook.xml"/></Relationships>`],
+  ['xl/workbook.xml',`<workbook xmlns="${ns}" xmlns:r="${officeRel}"><sheets><sheet name="訓練紀錄" sheetId="1" r:id="rId1"/></sheets></workbook>`],
+  ['xl/_rels/workbook.xml.rels',`<Relationships xmlns="${rel}"><Relationship Id="rId1" Type="${officeRel}/worksheet" Target="worksheets/sheet1.xml"/><Relationship Id="rId2" Type="${officeRel}/styles" Target="styles.xml"/><Relationship Id="rId3" Type="${officeRel}/sharedStrings" Target="sharedStrings.xml"/></Relationships>`],
+  ['xl/sharedStrings.xml',`<sst xmlns="${ns}" count="${stringCount}" uniqueCount="${strings.length}">${strings.map(s=>`<si><t xml:space="preserve">${xml(s)}</t></si>`).join('')}</sst>`],
+  ['xl/styles.xml',`<styleSheet xmlns="${ns}"><numFmts count="2"><numFmt numFmtId="164" formatCode="yyyy/mm/dd"/><numFmt numFmtId="165" formatCode="[h]:mm:ss"/></numFmts><fonts count="2"><font><sz val="11"/><name val="Microsoft JhengHei"/></font><font><b/><sz val="11"/><name val="Microsoft JhengHei"/><color rgb="FF203C50"/></font></fonts><fills count="3"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill><fill><patternFill patternType="solid"><fgColor rgb="FFD9E4D3"/><bgColor indexed="64"/></patternFill></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="4"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1"><alignment vertical="top" wrapText="1"/></xf><xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1" applyAlignment="1"><alignment vertical="center" wrapText="1"/></xf><xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/><xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/></cellXfs><cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles></styleSheet>`],
+  ['xl/worksheets/sheet1.xml',`<worksheet xmlns="${ns}"><dimension ref="A1:M22"/><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><sheetFormatPr defaultRowHeight="20"/><cols>${widths.map((w,i)=>`<col min="${i+1}" max="${i+1}" width="${w}" customWidth="1"/>`).join('')}</cols><sheetData>${sheetRows}</sheetData><autoFilter ref="A1:M22"/></worksheet>`]
+ ];
+ download(zipFiles(files),'渣打半馬訓練紀錄.xlsx','application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+}
+function closeMenu(){
+ $('menu-dialog').close();
+}
+function setup(){
+ $('open-menu').onclick=()=>{$('menu-dialog').showModal();$('open-menu').setAttribute('aria-expanded','true');};
+ $('close-menu').onclick=closeMenu;
+ $('menu-dialog').addEventListener('close',()=>{$('open-menu').setAttribute('aria-expanded','false');$('open-menu').focus({preventScroll:true});});
+ $('menu-dialog').addEventListener('click',e=>{if(e.target===$('menu-dialog')){const rect=e.target.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)closeMenu();}});
+ MODEL.sheets.forEach((s,i)=>{
+  const tab=document.createElement('button');tab.id='tab-'+i;tab.type='button';tab.role='tab';tab.setAttribute('aria-controls','panel-'+i);tab.textContent=s.name;tab.onclick=()=>{choose(s.name);closeMenu();};document.querySelector('.tabs').append(tab);
+  const panel=document.createElement('section');panel.id='panel-'+i;panel.className='panel';panel.role='tabpanel';panel.setAttribute('aria-labelledby',tab.id);$('panels').append(panel);
+ });
+ document.querySelector('.tabs').addEventListener('keydown',e=>{
+  const i=MODEL.sheets.findIndex(s=>s.name===active);let next=i;
+  if(e.key==='ArrowDown'||e.key==='ArrowRight')next=(i+1)%MODEL.sheets.length;else if(e.key==='ArrowUp'||e.key==='ArrowLeft')next=(i+MODEL.sheets.length-1)%MODEL.sheets.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=MODEL.sheets.length-1;else return;
+  e.preventDefault();choose(MODEL.sheets[next].name,true);
+ });
+ $('week-filter').onchange=e=>{weekFilter=e.target.value;render();};
+ $('type-filter').onchange=e=>{typeFilter=e.target.value;render();};
+ $('apply-filters').onclick=closeMenu;
+ $('panels').addEventListener('toggle',e=>{
+  if(!e.target.dataset.course||!e.target.isConnected)return;
+  if(e.target.open)openCourses.add(e.target.dataset.course);else openCourses.delete(e.target.dataset.course);
+ },true);
+ $('panels').addEventListener('change',e=>{
+  const input=e.target;
+  if(!input.dataset.edit)return;
+  const k=input.dataset.edit,pos=k.lastIndexOf('!'),s=k.slice(0,pos),a=k.slice(pos+1);let v=input.value;
+  clearError();
+  try{
+   if(input.type==='checkbox')v=input.checked?'☑':'☐';
+   else if(['H','I'].includes(a[0])){if(v!==''){v=Number(v);if(!Number.isFinite(v)||v<0)throw Error('里程請輸入 0 或正數。');}}
+   else if(a[0]==='J'&&v!==''){const m=v.trim().match(/^(\d+):([0-5]\d):([0-5]\d)$/);if(!m)throw Error('時間請使用 h:mm:ss，例如 0:45:30；分、秒須為 00–59。');v=(Number(m[1])*3600+Number(m[2])*60+Number(m[3]))/86400;if(!Number.isFinite(v))throw Error('時間超出可計算範圍。');}
+   setValue(s,a,v);
+   const replacement=[...$('panels').querySelectorAll('[data-edit]')].find(el=>el.dataset.edit===k);if(replacement)replacement.focus({preventScroll:true});
+  }catch(error){showError(error.message+' 原紀錄尚未變更。');input.setAttribute('aria-invalid','true');input.focus();}
+ });
+ $('export-json').onclick=()=>download(JSON.stringify({version:1,workbook:'渣打半馬2027',edits},null,2),'渣打半馬紀錄備份.json','application/json;charset=utf-8');
+ $('export-xlsx').onclick=()=>{clearError();try{exportXlsx();}catch(error){closeMenu();showError('Excel 匯出失敗：'+error.message+'。紀錄未變更，可先匯出 JSON 備份。');}};
+ $('import-json').onclick=()=>$('import-file').click();
+ $('import-file').onchange=async e=>{
+  const file=e.target.files[0];if(!file)return;clearError();
+  try{
+   if(file.size>2000000)throw Error('檔案超過 2 MB，請選擇本頁匯出的紀錄備份。');
+   const data=JSON.parse(await file.text());if(data.version!==1||data.workbook!=='渣打半馬2027')throw Error('這不是相容的渣打半馬紀錄備份。');
+   edits=validateEdits(data.edits);save();render();closeMenu();
+  }catch(error){closeMenu();showError('匯入失敗：'+error.message+'。原紀錄未被取代。');}
+  e.target.value='';
+ };
+ $('export-html').onclick=()=>{
+  const clone=document.documentElement.cloneNode(true);clone.querySelector('#embedded-state').textContent=JSON.stringify(edits).replace(/</g,'\\u003c');
+  clone.querySelector('.tabs').replaceChildren();clone.querySelector('#panels').replaceChildren();clone.querySelector('#message').hidden=true;clone.querySelector('#reset-dialog').removeAttribute('open');clone.querySelector('#menu-dialog').removeAttribute('open');clone.querySelector('#open-menu').setAttribute('aria-expanded','false');clone.querySelector('#count-number').textContent='—';
+  download('<!doctype html>\n'+clone.outerHTML,'渣打半馬手帳_含紀錄.html','text/html;charset=utf-8');
+ };
+ $('reset').onclick=()=>{closeMenu();$('reset-dialog').showModal();};
+ $('cancel-reset').onclick=()=>$('reset-dialog').close();
+ $('confirm-reset').onclick=()=>{edits={};weekFilter='';typeFilter='';$('week-filter').value='';$('type-filter').value='';clearError();save();render();$('reset-dialog').close();};
+ mobileLayout.addEventListener('change',()=>{document.activeElement?.blur();render();choose(active);});
+ window.addEventListener('pageshow',()=>countdown());
+ window.addEventListener('focus',()=>countdown());
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)countdown();});
+ load();render();choose(active);countdown();setInterval(()=>countdown(),60000);
+}
+setup();
+</script>
+</body>
+</html>
